@@ -41,7 +41,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #7bc3d1;
+	color: #b4e4fd;
 }
 ul, ol {
 	list-style: none;
@@ -65,22 +65,19 @@ ul, ol {
 }
 ul, ol {
 	padding: 0;
-	webkit-padding: 0;
-	moz-padding: 0;
+	--webkit-padding: 0;
+	--moz-padding: 0;
 }
 hr {
 	height: 4px;
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #7bc3d1;
+	background: #b4e4fd;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
 }
-
-/* Hero */
-
 
 /* Navigation */
 #nav {
@@ -123,13 +120,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #7bc3d1;
+	color: #b4e4fd;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #7bc3d1;
+	color: #b4e4fd;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -163,8 +160,8 @@ hr {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: #7bc3d1;
-	border-color: #7bc3d1;
+	background-color: #b4e4fd;
+	border-color: #b4e4fd;
 }
 .btn-primary i.fa {
 	margin-right: 10px;
@@ -178,15 +175,15 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	/* background: url(../img/intro-bg.jpg) no-repeat center top; */
-	background-color: #7bc3d1;
+	background: linear-gradient( #b4e3fd2c, #121d1f), url(../img/intro-bg.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
+
 .section-title.center {
-	padding: 25px 0 45px 0;
+	padding: 25px 0 20px 0;
 }
 /* About Section */
 #about {
@@ -196,12 +193,6 @@ hr {
 #about .about-text {
 	margin-left: 10px;
 }
-#about img {
-	border-radius: 50%;
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-}
 #about p {
 	margin-top: 20px;
 	margin-bottom: 30px;
@@ -209,7 +200,7 @@ hr {
 /* Skills Section */
 #skills {
 	padding: 100px 0;
-	background: #7bc3d1;
+	background: #b4e4fd;
 }
 #skills h2 {
 	color: #fff;
@@ -275,7 +266,7 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	background: #7bc3d1;
+	background: #b4e4fd;
 	color: #fff;
 	padding: 6px 14px;
 }
@@ -389,7 +380,7 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background: #7bc3d1;
+	background: #b4e4fd;
 }
 #contact h2 {
 	color: #fff;
@@ -506,7 +497,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #a0a5a5;
 }
 #footer a:hover {
-	color: #7bc3d1;
+	color: #b4e4fd;
 }
 
 /* Media Queries */
